@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.number-1 {
+  width: 300px;
+  padding: 20px 50px 20px 20px;
+  border: 1px solid #000;
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+.number-2 {
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.button {
+  display: block;
+  margin-top: 10px;
+}
+
+.number-3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.number-3__row {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+.number-3__row-2 {
+  padding: 10px;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+}
+.number-3__subtitle {
+  margin-bottom: 15px;
+}
+
+.radio {
+  display: inline-block;
+}
+
+.number-4 {
+  padding: 30px;
+  border: 1px solid #000;
+  margin-bottom: 30px;
+}
+
+.number-4__row {
+  display: flex;
+  gap: 10px;
+}
+
+.number-5 {
+  padding: 20px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.file {
+  display: inline;
+}
+
+.number-6 {
+  padding: 20px;
+  border: 1px solid #000;
+  width: 50%;
+}
+
+.number-6__row {
+  display: flex;
+  gap: 10px;
+}
+
+.fieldset {
+  margin-bottom: 10px;
+}
+
+.fieldset-2 {
+  display: flex;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+
