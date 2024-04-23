@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+ <div class="wrapper">
+  <div class="number-1">
+    <h2 class="title">INPUT и TEXTAREA</h2>
+  <form action="" method="post"> 
+    <input type="text" placeholder="Плейсхолдер">
+    <input type="text" value="value">
+    <input type="text" disabled value="disabled">
+    <input type="password" value="12345678">
+    <textarea placeholder="Введите текст"></textarea>
+    <input type="button" value="Кнопка через input">
+    <button>Кнопка через button</button>
+  </form>
+  </div>
+
+  <div class="number-2">
+    <h2 class="title"> INPUT и LABEL</h2>
+  <form action="" method="post"> 
+    <input id="input" type="text" placeholder="Плейсхолдер">
+   <label id="label" for="input"> Это метка для инпута - нажми на меня - и инпут получит фокус!</label>
+   <button class="button"  type="submit">Отправить на сервер</button>
+  </form>
+  </div>
+
+  <div class="number-3">
+    <h2 class="title">CHECKBOX и RADIO</h2>
+  <form action="" method="post">
+    <div class="number-3__row">
+      <div class="number-3__block">
+        <input id="label-2" class="checkbox" type="checkbox">
+        <label for="label-2" class="label"> Это метка для чекбокса: нажмите на меня - чекбокс сменит голочку!</label>
+      </div>
+
+      <div class="number-3__block">
+        <input class="checkbox" type="checkbox" checked="checked">
+        <label class="label">Я отмечен по умолчанию!</label>
+      </div>
+
+      <div class="number-3__block">
+        <input class="checkbox" type="checkbox" disabled>
+        <label class="label">Я disabled!</label>
+      </div>
+        <div class="number-3__row-2">
+          <div class="number-3__subtitle">Это группа радиокнопок - только одна из них может быть отмечена!</div>
+          <div class="number-3__block">
+            <input class="radio" name="radio" type="radio">Это метка для радио
+          </div>
+            <input class="radio" name="radio" type="radio" checked="checked">Это метка для радио
+        </div>
+    </div> 
+    <button type="submit">Отправить на сервер</button>
+  </form>
+  </div>
+
+  <div class="number-4">
+    <h2 class="title">SELECT</h2>
+    <div class="number-4__row">
+      <select class="select" name="selectOne" id="">
+        <option value="1">Нью Йорк</option>
+      </select>
+      <select class="select" name="selectTwo" id="">
+        <option value="1">Москва</option>
+        <option value="2">Киев</option>
+        <option value="3" selected>Нью Йорк</option>
+      </select>
+      <select class="select" name="selectFree" id="">
+        <option value="1">Минск</option>
+        <option value="2">Москва</option>
+        <option value="3">Киев</option>
+        <option value="4" selected>Нью Йорк</option>
+        <option value="5">Варшава</option>
+      </select>
+      <button type="submit">Отправить на сервер</button>
+    </div>
+  </div>
+
+  <div class="number-5">
+    <h2 class="title">FILE</h2>
+      <input class="file" type="file">
+      <button class="btn" type="submit">Отправить на сервер</button>
+  </div>
+
+  <div class="number-6">
+    <h2 class="title">FIELDSET и LEGEND</h2>
+    <fieldset class="fieldset">
+      <legend>Выберите кнопочку</legend>
+      <div class="number-6__row">
+        <input name="radio" type="radio">
+        <input name="radio" type="radio">
+        <input name="radio" type="radio">
+        <input placeholder="Введите ваше имя..." type="text">
+    </fieldset>
+    <fieldset class="fieldset-2">
+      <legend>Выберите кнопочку</legend>
+      <input name="radio" type="radio">
+      <input name="radio" type="radio">
+      <input name="radio" type="radio">
+      <input disabled type="radio">
+      <input disabled type="radio">
+    </fieldset>
+    <button class="button" type="submit">Отправить на сервер</button>
+   </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
